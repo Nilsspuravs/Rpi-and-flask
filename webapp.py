@@ -6,9 +6,9 @@ app = Flask(__name__)
 def index():
     return 'Hello world'
 
-@app.route('/russia')
-def russia():
-    return 'Yummy Russian Svetlanas!'
+@app.route('/cakes')
+def cakes():
+    return 'Yummy cakes!'
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
