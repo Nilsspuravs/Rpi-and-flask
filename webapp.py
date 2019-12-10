@@ -7,9 +7,8 @@ def index():
     return 'Hello world'
 
 @app.route('/russia')
-def index():
-    return 'Russia is big country,ruled by russians!'
-
+def russia():
+    return 'Yummy Russian Svetlanas!'
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
