@@ -8,7 +8,7 @@ def index():
 
 @app.route('/cakess')
 def cakess():
-    return 'Yummy cakess!'
+    return render_template('index1.html')
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
