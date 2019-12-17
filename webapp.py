@@ -4,11 +4,9 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 
-@app.route('/cakess')
-def cakess():
-    return render_template('index1.html')
 
-@app.route('/hello/lampa')
+
+@app.route('/')
 def hello(name):
     return render_template('page.html', name=name)
 
