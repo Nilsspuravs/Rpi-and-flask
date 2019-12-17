@@ -52,7 +52,7 @@ def action(changePin, action):
    templateData = {
       'pins' : pins
    }
-@app.route('/hello/<nam')
+@app.route('/hello')
 def hello(name):
  return render_template('page.html', name=name)
 
